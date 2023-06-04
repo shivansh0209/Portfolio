@@ -1,0 +1,94 @@
+body{
+background-color: #81F2C5;
+}
+.tech-stack{
+    background-color: #FEF383;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    grid-template-rows: max-content;
+    margin: 0px;
+
+    
+}
+.projects{
+    margin: 0px;
+}
+.heading{
+    transform: translate(22%);
+}
+.Projects{
+    background-color: #FEF383;
+    width: 100%;
+}
+
+.Cards{
+    background-color: #FEF383;
+    width: 100%;
+    display: grid;
+    gap: 4px;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+}
+
+ion-icon{
+    font-size: 3rem;
+}
+ion-icon:hover{
+    transform: scale(1.6);
+}
+h3{
+    margin: 0px;
+}
+.icon{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.icon1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.icon1:hover{
+transform: scale(1.6);
+}
+
+
+a { color: inherit; }
+.name{
+    font-family: 'Balsamiq Sans', cursive;
+    letter-spacing: 1.5mm;
+}
+
+.name:hover{
+    text-decoration: underline;
+}
+
+.nav-contents{
+    display: flex;
+    font-family: "Trirong", serif;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.nav-contents:hover{
+    background-color: rgb(230, 244, 244);
+}
+
+.nav-bar{
+    margin-bottom: 100px;
+    border-radius: 17px;
+    height: max-content;
+    display: grid;
+    grid-template-columns: 3fr 8fr 1fr 1fr 1fr;
+    justify-content: center;
+}
+h2{
+    margin: 0px;
+}

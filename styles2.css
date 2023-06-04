@@ -1,0 +1,83 @@
+body{
+    background-color: #81F2C5;
+}
+div{
+    margin: 0px;
+}
+.shit{
+    width: 80%;
+    background-color: #FEF383;
+    height: 70vh;
+    translate: 13%;
+    margin-top: 100px;
+    box-shadow: 5px 5px 5px 5px rgb(139, 98, 10);
+
+}
+.who{
+    display: inline-flex;
+    margin: 0;
+    font-size: 5rem;
+    position: relative;
+    bottom: 45px;
+        left: 15px;
+}
+
+
+.about-me{
+    animation: slide-up 2s;
+    font-size: 1.5rem;
+    color: rgb(139, 98, 10);
+    position: relative;
+    bottom: 60px;
+    left: 15px;
+}
+
+@keyframes slide-up{
+    from{
+        opacity: 0;
+        line-height: 200px;
+    }
+
+    to{
+        opacity: 1;
+        line-height: 25px;
+    }
+}
+.My-Photo{
+    color: grey;
+    text-rendering: auto;
+}
+
+a { color: inherit; }
+.name{
+    font-family: 'Balsamiq Sans', cursive;
+    letter-spacing: 1.5mm;
+}
+
+.name:hover{
+    text-decoration: underline;
+}
+
+.nav-contents{
+    display: flex;
+    font-family: "Trirong", serif;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.nav-contents:hover{
+    background-color: rgb(230, 244, 244);
+}
+
+.nav-bar{
+    border-radius: 17px;
+    height: max-content;
+    display: grid;
+    grid-template-columns: 3fr 6fr 1.5fr 1.5fr 1.5fr;
+    justify-content: center;
+}
+h2{
+    margin: 0px;
+}

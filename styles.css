@@ -1,0 +1,79 @@
+body{
+    background-image: url(depositphotos_318501922-stock-photo-color-paper-background-pastel-tone-2.jpg);
+}
+
+a { color: inherit; }
+.name{
+    font-family: 'Balsamiq Sans', cursive;
+    letter-spacing: 1.5mm;
+}
+
+.name:hover{
+    text-decoration: underline;
+}
+
+.nav-contents{
+    display: flex;
+    font-family: "Trirong", serif;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.nav-contents:hover{
+    background-color: rgb(230, 244, 244);
+}
+
+.nav-bar{
+    height: max-content;
+    display: grid;
+    grid-template-columns: 3fr 6fr 1.5fr 1.5fr 1.5fr;
+    justify-content: center;
+}
+
+.Home-page{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 5fr 7fr 1fr;
+}
+
+.Hi{
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+    font-size: 2rem;
+    margin-bottom: 0px;
+}
+
+h1{
+    font-size: 6rem;
+    margin: 0px;
+}
+h2{
+    margin: 0px;
+}
+
+.text{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    color: rgb(11, 102, 105);
+    margin: 0px;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+         typing 3s steps(28),
+        cursor .4s step-end infinite alternate;
+}
+/* cursor blinking */
+@keyframes cursor{
+     50%
+           { border-color: transparent}
+}
+/* typing effect */
+@keyframes typing
+                    {
+    from { width: 0 }
+}
