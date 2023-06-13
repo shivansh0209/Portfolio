@@ -4,5 +4,5 @@ arr.forEach((input1)=>{
     input1.value=""
 });
    
-    setTimeout(()=>alert("Your message has been sent"),1000);
+    setTimeout(()=>alert("Your message has been sent"),250);
 }
